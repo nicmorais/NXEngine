@@ -35,7 +35,15 @@ Platform defines:
 | `-D_L10N_CP1251` | Enable Russian l10n (you need a `*.ttf` font and Russian version of data-files). |
 
 Please read [addition building information (in Russian)](http://exlmoto.ru/nxengine/#3) in the EXL's Developer Blog.
+```
+sudo apt-get update
+sudo apt-get install libsdl-ttf2.0-dev build-essential
+cd ~
+git clone https://github.com/nicmorais/Pocket-NXEngine NXEngine
+cd NXEngine
+make
 
+```
 ## Screens
 
 Controls:
